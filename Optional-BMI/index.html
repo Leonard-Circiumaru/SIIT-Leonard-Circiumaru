@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>BmiCalculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="table">
+        <div class="screen-body">
+          <div class="screen-body-item left">
+            <div class="app-title">
+              <span>Bmi</span>
+              <span>Calculator</span>
+            </div>
+            <div class="app-value-first">
+              <div class="app-value" id="result">0</div>
+              <div class="app-info" id="result-status">Normal</div>
+            </div>
+
+            <div class="app-value-second">
+              <div class="card card-one">
+                <span>18.5</span>
+                <span>Under Weight</span>
+              </div>
+
+              <div class="card card-two">
+                <span>18.5-25</span>
+                <span>Normal</span>
+              </div>
+<div class="media-queries">
+              <div class="card card-three">
+                <span>25-30</span>
+                <span>Over Weight</span>
+              </div>
+
+              <div class="card card-four">
+                <span>>30</span>
+                <span>Obesee</span>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <!-- -----------------------------end left----------------- -->
+
+          <div class="screen-body-item right">
+          <div class="app-form-group">
+            <input class="app-form-control " id="weight"  type="number" placeholder=" Weight (kg)">
+          </div>
+          <div class="app-form-group">
+            <input class="app-form-control" id="height" type="number" placeholder="Height (m)">
+          </div>
+        
+          <div class="app-form-group buttons">
+            <button class="app-form-button" onclick="CalculateBMI()">Calculate</button>
+            <button class="app-form-button" onclick="Reset()">Reset</button>
+          </div>
+        </div>
+          </div>
+
+      </div>
+
+          <!-- -----------------------------end right----------------- -->
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
