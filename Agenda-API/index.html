@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Agenda-API</title>
+</head>
+
+<body>
+    <h1>Add New Contact</h1>
+    <div>
+        <h4>First Name</h4>
+        <input placeholder="first_name" id="first_name" /><br><br>
+        <h4 class="doi">Last Name</h4>
+        <input placeholder="last_name" id="last_name" /><br><br>
+        <h4>Mobile Number</h4>
+        <input placeholder="mobile_number" id="mobile_number" /><br><br>
+    </div>
+
+    <div class="address"><br>
+        <h4>Street</h4>
+        <input class="strada" id="street" placeholder="street" /><br><br>
+        <h4>Number</h4>
+        <input class="numar" id="number" placeholder="number" /><br><br>
+        <h4>City</h4>
+        <input class="oras" id="city" placeholder="city" /><br><br>
+        <h4>Country</h4>
+        <input class="tara" id="country" placeholder="country" /><br><br>
+        <button id="send">Send</button>
+    </div><br>
+    <h1 class="contact">Contact List</h1>
+    <ol id="entries">
+
+    </ol>
+    <script src="./script.js"></script>
+</body>
+
+</html>

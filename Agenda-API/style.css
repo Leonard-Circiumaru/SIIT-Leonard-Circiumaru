@@ -1,0 +1,70 @@
+h4 {
+    display: inline;
+    margin-right: 7px;
+}
+
+h4:first-child {
+    margin-right: 40px;
+}
+
+.doi {
+    margin-right: 42px;
+}
+
+.address {
+    display: inline-block;
+    border-top: 1px solid rgb(165, 165, 165);
+    width: 30%;
+    padding-left: 20px;
+}
+
+.strada {
+    margin-left: 20px;
+}
+
+.numar {
+    margin-left: 5px;
+}
+ 
+.oras {
+    margin-left: 33px;
+}
+
+.tara {
+    margin-left: 5px;
+}
+
+button {
+    margin-left: 5px;
+    background-color: rgb(223, 76, 76);
+    border: 1px solid gray;
+    border-bottom: 3px solid rgb(75, 74, 74);
+    border-right: 3px solid rgb(75, 74, 74);
+}
+
+h1 {
+    text-align: center;
+    width: 30%;
+}
+
+ol {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 3px 10px #111;
+}
+
+#send {
+    background-color: rgb(102, 161, 102);
+    width: 100%;
+    border: 1px solid gray;
+    border-bottom: 3px solid rgb(75, 74, 74);
+    border-right: 3px solid rgb(75, 74, 74);
+}
+
+input {
+    border: 1px solid gray;
+    border-bottom: 3px solid gray;
+    border-right: 3px solid gray;
+}
